@@ -5476,7 +5476,7 @@ export const politicians = [
     name: "Brijesh Singh Hussain",
     party: "Shiv Sena (UBT)",
     position: "Party District Leader, Sangli",
-    image: null,
+    image: "/policians-images/brijbhushan.jpeg",
     state: "Maharashtra",
     district: "Sangli",
     status: "garbage",

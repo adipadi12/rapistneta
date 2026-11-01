@@ -9,7 +9,7 @@ export const politicians = [
     name: "Brij Bhushan Sharan Singh",
     party: "Bharatiya Janata Party (BJP)",
     position: "Former Member of Parliament (Kaiserganj)",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Brij_Bhushan_Sharan_Singh.jpg/500px-Brij_Bhushan_Sharan_Singh.jpg",
+    image: "/public/policians-images/brijbhushan.jpeg",
     state: "Uttar Pradesh",
     district: "Gonda",
     status: "rapist",
