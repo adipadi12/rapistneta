@@ -1,7 +1,21 @@
-import React from 'react'
-import './Header.css'
+import type { PoliticianStatus } from '../types';
+import './Header.css';
 
-function Header({ searchTerm, setSearchTerm, filterStatus, setFilterStatus, onRandomClick }) {
+interface HeaderProps {
+  searchTerm: string;
+  setSearchTerm: (term: string) => void;
+  filterStatus: PoliticianStatus | 'all';
+  setFilterStatus: (status: PoliticianStatus | 'all') => void;
+  onRandomClick: () => void;
+}
+
+function Header({
+  searchTerm,
+  setSearchTerm,
+  filterStatus,
+  setFilterStatus,
+  onRandomClick,
+}: HeaderProps) {
   return (
     <header className="header">
       <div className="container">
@@ -60,7 +74,7 @@ function Header({ searchTerm, setSearchTerm, filterStatus, setFilterStatus, onRa
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

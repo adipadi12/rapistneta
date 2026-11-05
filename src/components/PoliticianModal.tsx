@@ -1,26 +1,38 @@
-import React, { useState } from 'react'
-import './PoliticianModal.css'
+import { useState } from 'react';
+import type { Politician, PoliticianStatus } from '../types';
+import './PoliticianModal.css';
 
-function PoliticianModal({ politician, onClose }) {
-  const [imageError, setImageError] = useState(false)
+interface PoliticianModalProps {
+  politician: Politician;
+  onClose: () => void;
+}
 
-  const getStampText = (status) => {
-    switch(status) {
-      case 'rapist': return 'RAPIST'
-      case 'garbage': return 'STILL GARBAGE'
-      case 'clean': return 'CLEAN'
-      default: return ''
+function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
+  const [imageError, setImageError] = useState(false);
+
+  const getStampText = (status: PoliticianStatus): string => {
+    switch (status) {
+      case 'rapist':
+        return 'RAPIST';
+      case 'garbage':
+        return 'STILL GARBAGE';
+      case 'clean':
+        return 'CLEAN';
+      default:
+        return '';
     }
-  }
+  };
 
-  const getStampClass = (status) => {
-    return `modal-stamp stamp-${status}`
-  }
+  const getStampClass = (status: PoliticianStatus): string => {
+    return `modal-stamp stamp-${status}`;
+  };
 
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-container" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close-btn" onClick={onClose}>×</button>
+        <button className="modal-close-btn" onClick={onClose}>
+          ×
+        </button>
 
         <div className="modal-content">
           <div className="modal-image-section">
@@ -33,9 +45,7 @@ function PoliticianModal({ politician, onClose }) {
                   crossOrigin="anonymous"
                 />
               ) : (
-                <div className="modal-placeholder-image">
-                  {politician.name.charAt(0)}
-                </div>
+                <div className="modal-placeholder-image">{politician.name.charAt(0)}</div>
               )}
               <div className={getStampClass(politician.status)}>
                 {getStampText(politician.status)}
@@ -66,7 +76,7 @@ function PoliticianModal({ politician, onClose }) {
                         <span className="case-icon">⚠️</span>
                         <strong>Sexual Assault Cases: {politician.cases.sexualAssault}</strong>
                       </div>
-                      {politician.caseDetails && politician.caseDetails.sexualAssault && (
+                      {politician.caseDetails?.sexualAssault && (
                         <ul className="case-list">
                           {politician.caseDetails.sexualAssault.map((detail, idx) => (
                             <li key={idx}>{detail}</li>
@@ -82,7 +92,7 @@ function PoliticianModal({ politician, onClose }) {
                         <span className="case-icon">⚠️</span>
                         <strong>Other Criminal Cases: {politician.cases.other}</strong>
                       </div>
-                      {politician.caseDetails && politician.caseDetails.other && (
+                      {politician.caseDetails?.other && (
                         <ul className="case-list">
                           {politician.caseDetails.other.map((detail, idx) => (
                             <li key={idx}>{detail}</li>
@@ -116,7 +126,7 @@ function PoliticianModal({ politician, onClose }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default PoliticianModal
+export default PoliticianModal;

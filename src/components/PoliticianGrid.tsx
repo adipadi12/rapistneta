@@ -1,8 +1,13 @@
-import React from 'react'
-import PoliticianCard from './PoliticianCard'
-import './PoliticianGrid.css'
+import PoliticianCard from './PoliticianCard';
+import type { Politician } from '../types';
+import './PoliticianGrid.css';
 
-function PoliticianGrid({ politicians, onSelectPolitician }) {
+interface PoliticianGridProps {
+  politicians: Politician[];
+  onSelectPolitician: (politician: Politician) => void;
+}
+
+function PoliticianGrid({ politicians, onSelectPolitician }: PoliticianGridProps) {
   if (politicians.length === 0) {
     return (
       <div className="empty-state">
@@ -10,12 +15,12 @@ function PoliticianGrid({ politicians, onSelectPolitician }) {
         <h2>No politicians found</h2>
         <p>Try adjusting your search or filters</p>
       </div>
-    )
+    );
   }
 
   return (
     <div className="politician-grid">
-      {politicians.map(politician => (
+      {politicians.map((politician) => (
         <PoliticianCard
           key={politician.id}
           politician={politician}
@@ -23,7 +28,7 @@ function PoliticianGrid({ politicians, onSelectPolitician }) {
         />
       ))}
     </div>
-  )
+  );
 }
 
-export default PoliticianGrid
+export default PoliticianGrid;
