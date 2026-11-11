@@ -22,7 +22,6 @@ function Header({
         <div className="header-content">
           <div className="header-top">
             <h1 className="logo">
-              <span className="logo-icon">⚖️</span>
               RapistNeta
             </h1>
             <p className="tagline">Tracking accountability in Indian politics</p>

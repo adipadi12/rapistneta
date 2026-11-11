@@ -1,5 +1,5 @@
 import { useState, memo } from 'react';
-import type { Politician, PoliticianStatus } from '../types';
+import type { Politician } from '../types';
 import './PoliticianCard.css';
 
 interface PoliticianCardProps {
@@ -10,7 +10,7 @@ interface PoliticianCardProps {
 function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
   const [imageError, setImageError] = useState(false);
 
-  const getStampText = (status: PoliticianStatus): string => {
+  const getStampText = (status: string): string => {
     switch (status) {
       case 'rapist':
         return 'RAPIST';
@@ -23,7 +23,7 @@ function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
     }
   };
 
-  const getStampClass = (status: PoliticianStatus): string => {
+  const getStampClass = (status: string): string => {
     return `stamp stamp-${status}`;
   };
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Politician, PoliticianStatus } from '../types';
+import type { Politician } from '../types';
 import './PoliticianModal.css';
 
 interface PoliticianModalProps {
@@ -10,7 +10,7 @@ interface PoliticianModalProps {
 function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
   const [imageError, setImageError] = useState(false);
 
-  const getStampText = (status: PoliticianStatus): string => {
+  const getStampText = (status: string): string => {
     switch (status) {
       case 'rapist':
         return 'RAPIST';
@@ -23,7 +23,7 @@ function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
     }
   };
 
-  const getStampClass = (status: PoliticianStatus): string => {
+  const getStampClass = (status: string): string => {
     return `modal-stamp stamp-${status}`;
   };
 

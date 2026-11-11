@@ -29,6 +29,8 @@ export interface Source {
 
 /**
  * Core politician data structure
+ * Status is stored as string to accommodate both the original dataset
+ * values ('rapist', 'garbage', 'clean') and synthetic dataset values.
  */
 export interface Politician {
   id: number;
@@ -38,7 +40,7 @@ export interface Politician {
   image: string | null;
   state: string;
   district: string;
-  status: PoliticianStatus;
+  status: string;
   cases: CriminalCaseCounts;
   caseDetails?: CaseDetails;
   sources?: Source[];
