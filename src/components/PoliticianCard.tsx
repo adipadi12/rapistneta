@@ -1,21 +1,31 @@
-import React, { useState } from 'react'
-import './PoliticianCard.css'
+import { useState, memo } from 'react';
+import type { Politician } from '../types';
+import './PoliticianCard.css';
 
-function PoliticianCard({ politician, onClick }) {
-  const [imageError, setImageError] = useState(false)
+interface PoliticianCardProps {
+  politician: Politician;
+  onClick: () => void;
+}
 
-  const getStampText = (status) => {
-    switch(status) {
-      case 'rapist': return 'RAPIST'
-      case 'garbage': return 'STILL GARBAGE'
-      case 'clean': return 'CLEAN'
-      default: return ''
+function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
+  const [imageError, setImageError] = useState(false);
+
+  const getStampText = (status: string): string => {
+    switch (status) {
+      case 'rapist':
+        return 'RAPIST';
+      case 'garbage':
+        return 'STILL GARBAGE';
+      case 'clean':
+        return 'CLEAN';
+      default:
+        return '';
     }
-  }
+  };
 
-  const getStampClass = (status) => {
-    return `stamp stamp-${status}`
-  }
+  const getStampClass = (status: string): string => {
+    return `stamp stamp-${status}`;
+  };
 
   return (
     <div className={`politician-card ${politician.status}`} onClick={onClick}>
@@ -29,9 +39,7 @@ function PoliticianCard({ politician, onClick }) {
               crossOrigin="anonymous"
             />
           ) : (
-            <div className="placeholder-image">
-              {politician.name.charAt(0)}
-            </div>
+            <div className="placeholder-image">{politician.name.charAt(0)}</div>
           )}
         </div>
         <div className={getStampClass(politician.status)}>
@@ -46,14 +54,16 @@ function PoliticianCard({ politician, onClick }) {
 
         {politician.state && (
           <p className="politician-location">
-            📍 {politician.district ? `${politician.district}, ` : ''}{politician.state}
+            📍 {politician.district ? `${politician.district}, ` : ''}
+            {politician.state}
           </p>
         )}
 
         <div className="case-summary">
           {politician.status === 'rapist' && (
             <div className="case-badge rapist-badge">
-              {politician.cases.sexualAssault} Sexual Assault Case{politician.cases.sexualAssault > 1 ? 's' : ''}
+              {politician.cases.sexualAssault} Sexual Assault Case
+              {politician.cases.sexualAssault > 1 ? 's' : ''}
             </div>
           )}
           {politician.cases.other > 0 && (
@@ -62,14 +72,15 @@ function PoliticianCard({ politician, onClick }) {
             </div>
           )}
           {politician.status === 'clean' && (
-            <div className="case-badge clean-badge">
-              No Criminal Cases
-            </div>
+            <div className="case-badge clean-badge">No Criminal Cases</div>
           )}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default PoliticianCard
+// Memoize to prevent unnecessary re-renders when parent re-renders
+const PoliticianCard = memo(PoliticianCardComponent);
+
+export default PoliticianCard;

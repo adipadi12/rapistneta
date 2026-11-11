@@ -1,14 +1,27 @@
-import React from 'react'
-import './Header.css'
+import type { PoliticianStatus } from '../types';
+import './Header.css';
 
-function Header({ searchTerm, setSearchTerm, filterStatus, setFilterStatus, onRandomClick }) {
+interface HeaderProps {
+  searchTerm: string;
+  setSearchTerm: (term: string) => void;
+  filterStatus: PoliticianStatus | 'all';
+  setFilterStatus: (status: PoliticianStatus | 'all') => void;
+  onRandomClick: () => void;
+}
+
+function Header({
+  searchTerm,
+  setSearchTerm,
+  filterStatus,
+  setFilterStatus,
+  onRandomClick,
+}: HeaderProps) {
   return (
     <header className="header">
       <div className="container">
         <div className="header-content">
           <div className="header-top">
             <h1 className="logo">
-              <span className="logo-icon">⚖️</span>
               RapistNeta
             </h1>
             <p className="tagline">Tracking accountability in Indian politics</p>
@@ -60,7 +73,7 @@ function Header({ searchTerm, setSearchTerm, filterStatus, setFilterStatus, onRa
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
