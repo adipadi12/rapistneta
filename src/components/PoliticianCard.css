@@ -175,6 +175,18 @@
   border-color: var(--accent-orange);
 }
 
+.convicted-badge-other {
+  background: rgba(234, 88, 12, 0.15);
+  color: var(--accent-orange);
+  border-color: var(--accent-orange);
+}
+
+.allege-badge-other {
+  background: rgba(234, 88, 12, 0.15);
+  color: var(--accent-orange);
+  border-color: var(--accent-orange);
+}
+
 @media (max-width: 768px) {
   .stamp {
     font-size: 1.5rem;

@@ -95,7 +95,12 @@ function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
             <div className="case-badge clean-badge">No Criminal Cases</div>
           )}
           {politician.cases.sexualAssault > 0 || politician.cases.other > 0 ? (
-            <div className="case-badge convicted-badge">
+            <div className={`case-badge ${
+                (politician.cases.other > 0 && politician.cases.sexualAssault <= 0)
+                  ? 'convicted-badge-other'
+                  : 'convicted-badge'
+              }`}
+            >
               {getConvictedAllegedText()}
             </div>
           ) : null}

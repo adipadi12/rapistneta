@@ -91,7 +91,12 @@ function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
               ) : (
                 <>
                   {politician.cases.sexualAssault > 0 || politician.cases.other > 0 ? (
-                    <div className="case-badge convicted-badge">
+                    <div className={`alleged-convicted-badge ${
+                        (politician.cases.other > 0 && politician.cases.sexualAssault <= 0)
+                          ? 'convicted-badge-other'
+                          : 'convicted-badge'
+                      }`}
+                    >
                       {getConvictedAllegedText(politician)}
                     </div>
                   ) : null}
