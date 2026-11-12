@@ -23,6 +23,26 @@ function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
     }
   };
 
+  const getConvictedAllegedText = (): string => {
+    // Check sexualAssault caseDetails for conviction language
+    const sexualAssaultDetails = politician.caseDetails?.sexualAssault;
+    if (Array.isArray(sexualAssaultDetails)) {
+      const hasConviction = sexualAssaultDetails.some(
+        (detail: string) => detail.includes('Convicted')
+      );
+      if (hasConviction) return 'Convicted';
+    }
+    // Check other caseDetails for conviction language
+    const otherDetails = politician.caseDetails?.other;
+    if (Array.isArray(otherDetails)) {
+      const hasConviction = otherDetails.some(
+        (detail: string) => detail.includes('Convicted')
+      );
+      if (hasConviction) return 'Convicted';
+    }
+    return 'Alleged';
+  };
+
   const getStampClass = (status: string): string => {
     return `stamp stamp-${status}`;
   };
@@ -74,6 +94,11 @@ function PoliticianCardComponent({ politician, onClick }: PoliticianCardProps) {
           {politician.status === 'clean' && (
             <div className="case-badge clean-badge">No Criminal Cases</div>
           )}
+          {politician.cases.sexualAssault > 0 || politician.cases.other > 0 ? (
+            <div className="case-badge convicted-badge">
+              {getConvictedAllegedText()}
+            </div>
+          ) : null}
         </div>
       </div>
     </div>

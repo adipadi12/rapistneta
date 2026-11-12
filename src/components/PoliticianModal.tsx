@@ -23,6 +23,26 @@ function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
     }
   };
 
+  const getConvictedAllegedText = (politician: any): string => {
+    // Check sexualAssault caseDetails for conviction language
+    const sexualAssaultDetails = politician.caseDetails?.sexualAssault;
+    if (Array.isArray(sexualAssaultDetails)) {
+      const hasConviction = sexualAssaultDetails.some(
+        (detail: string) => detail.includes('Convicted')
+      );
+      if (hasConviction) return 'Convicted';
+    }
+    // Check other caseDetails for conviction language
+    const otherDetails = politician.caseDetails?.other;
+    if (Array.isArray(otherDetails)) {
+      const hasConviction = otherDetails.some(
+        (detail: string) => detail.includes('Convicted')
+      );
+      if (hasConviction) return 'Convicted';
+    }
+    return 'Alleged';
+  };
+
   const getStampClass = (status: string): string => {
     return `modal-stamp stamp-${status}`;
   };
@@ -70,6 +90,11 @@ function PoliticianModal({ politician, onClose }: PoliticianModalProps) {
                 </div>
               ) : (
                 <>
+                  {politician.cases.sexualAssault > 0 || politician.cases.other > 0 ? (
+                    <div className="case-badge convicted-badge">
+                      {getConvictedAllegedText(politician)}
+                    </div>
+                  ) : null}
                   {politician.cases.sexualAssault > 0 && (
                     <div className="case-detail rapist-case">
                       <div className="case-header">

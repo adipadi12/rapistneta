@@ -9,7 +9,7 @@
     "district": "Gonda",
     "status": "rapist",
     "cases": {
-      "sexualAssault": 7,
+      "sexualAssault": 12,
       "other": 0
     },
     "caseDetails": {
@@ -29,6 +29,851 @@
         "url": "https://www.thehindu.com/news/national/delhi-court-frames-charges-against-ex-wfi-chief-brij-bhushan-singh-in-sexual-harassment-case/article68199335.ece"
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "Narendra Damodardas Modi",
+    "party": "Bharatiya Janata Party (BJP)",
+    "position": "PM of India, Member of Parliament (Varanasi)",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg/250px-The_official_portrait_of_Shri_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg",
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 4
+    },
+    "caseDetails": {
+      "other": [
+        "2002 Gujarat Violence: A Supreme Court-appointed Special Investigation Team (SIT) found no substantial evidence against him, but the Zakia Jafri protest petition challenging this exoneration remains a subject of ongoing legal debate and Supreme Court scrutiny.",
+        "Following a trade agreement announced in February 2026, US President Donald Trump stated that Indian Prime Minister Narendra Modi agreed to stop buying Russian oil and shift purchases to the United States and potentially Venezuela.  In exchange, the US reduced tariffs on Indian goods from 50% to 18% and withdrew penalty tariffs linked to India’s energy sourcing. ",
+        "Mansi Soni is an architect and former Bangalore resident who became the central figure in the 2009 Snoopgate scandal involving Narendra Modi, who was then the Chief Minister of Gujarat.  The controversy stems from allegations by suspended IAS officer Pradeep Sharma that Modi had an intimate relationship with Soni and that his administration, led by Home Minister Amit Shah, illegally spied on her using state police machinery."
+      ]
+    },
+    "sources": [
+      {
+        "title": "BBC News - Narendra Modi 'allowed' Gujarat 2002 anti-Muslim riots",
+        "url": "https://www.bbc.com/news/world-south-asia-13170914"
+      },
+      
+      {
+        "title": "US, India reach trade deal; Modi to stop Russian oil imports: Trump",
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/020226-us-india-reach-trade-deal-modi-to-stop-russian-oil-imports-trump"
+      },
+      {
+        "title": "Entire Snoopgate PDF on Modi spying on Mansi Soni",
+        "url": "https://sanjeev.sabhlokcity.com/Misc/Modi-snoopgate.pdf"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kuldeep Singh Sengar",
+    "party": "Bharatiya Janata Party (BJP)",
+    "position": "Former Member of Legislative Assembly (Bangarmau)",
+    "image": "https://cf-images.assettype.com/outlookindia/2026-01-19/tbsm5496/Accused-ex-BJP-MLA-Kuldeep-SengarUnnao-Rape-case.jpg?w=768&auto=format%2Ccompress&fit=max&format=webp&quality=75&dpr=1.0",
+    "state": "Uttar Pradesh",
+    "district": "Bangarmau",
+    "status": "rapist",
+    "cases": {
+      "sexualAssault": 1,
+      "other": 3
+    },
+    "caseDetails": {
+      "sexualAssault": [
+        "Rape of a Minor: Convicted under the POCSO Act and IPC Section 376 for raping a 17-year-old girl in June 2017."
+      ],
+      "other": [
+        "Custodial Murder: Found guilty of culpable homicide for the death of the survivor's father, who died in police custody in 2018.",
+        "Murder and Attempted Murder: Accused of conspiring in a truck accident in July 2019 that killed the survivor's aunts and critically injured the survivor and her lawyer.",
+        "Other Charges: Booked for kidnapping, criminal conspiracy, criminal intimidation, and assault on public servants."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Unnao Rape Case",
+        "url": "https://www.thehindu.com/news/national/other-states/unnao-rape-case-kuldeep-sengar-gets-10-years-prison-for-victims-fathers-murder/article31057445.ece"
+      },
+      {
+        "title": "Custodial death case: Delhi HC dismisses Unnao rape survivor’s plea seeking death penalty for Kuldeep Sengar",
+        "url": "https://theprint.in/india/custodial-death-case-delhi-hc-dismisses-unnao-rape-survivors-plea-seeking-death-penalty-for-kuldeep-sengar/2909902/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Prajwal Revanna",
+    "party": "Janata Dal (Secular) - JD(S)",
+    "position": "Former Member of Parliament (Hassan)",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Prajwal_Revanna_%28cropped%29.png/250px-Prajwal_Revanna_%28cropped%29.png",
+    "state": "Karnataka",
+    "district": "Hassan",
+    "status": "rapist",
+    "cases": {
+      "sexualAssault": 1,
+      "other": 0
+    },
+    "caseDetails": {
+      "sexualAssault": [
+        "Convicted in August 2025 for raping a former domestic worker at a farmhouse belonging to his family.",
+        "Sentenced to life imprisonment by a special court for elected representatives in Bengaluru on August 2, 2025.",
+        "The conviction relates to one of four rape and sexual harassment cases registered against him in 2024."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Former MP Prajwal Revanna gets life sentence for rape of domestic worker",
+        "url": "https://indianexpress.com/article/cities/bangalore/prajwal-revanna-life-sentence-rape-case-10165502/"
+      },
+      {
+        "title": "Prajwal Revanna convicted of rape in the first case",
+        "url": "https://www.thenewsminute.com/amp/story/karnataka/prajwal-revanna-convicted-of-rape-in-the-first-case"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lalu Prasad Yadav",
+    "party": "Rashtriya Janata Dal (RJD)",
+    "position": "Former Chief Minister of Bihar, Former Member of Parliament",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/The_Union_Minister_for_Railways%2C_Shri_Lalu_Prasad_addressing_the_Media_to_announce_a_policy_matter_in_New_Delhi_on_September_12%2C_2004.jpg/250px-The_Union_Minister_for_Railways%2C_Shri_Lalu_Prasad_addressing_the_Media_to_announce_a_policy_matter_in_New_Delhi_on_September_12%2C_2004.jpg",
+    "state": "Bihar",
+    "district": "Saran",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 5
+    },
+    "caseDetails": {
+      "other": [
+        "Convicted in five fodder scam cases involving fraudulent withdrawals of public funds from government treasuries.",
+        "In February 2022, convicted in the Doranda treasury case involving approximately Rs 139.35 crore in illegal withdrawals.",
+        "Sentenced to five years of imprisonment and fined Rs 60 lakh in the Doranda treasury case.",
+        "Earlier convictions included cases involving the Chaibasa, Deoghar and Dumka treasuries."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Another conviction for Lalu Prasad Yadav: the fodder scam, and previous verdicts",
+        "url": "https://indianexpress.com/article/explained/another-conviction-for-lalu-prasad-yadav-the-fodder-scam-and-previous-verdicts-7775714/"
+      },
+      {
+        "title": "Lalu Prasad gets five-year jail term in fifth fodder scam case",
+        "url": "https://indianexpress.com/article/india/fifth-fodder-scam-case-lalu-yadav-sentencing-5-years-imprisonment-fine-7783717/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Atiq Ahmed",
+    "party": "Samajwadi Party (former)",
+    "position": "Former Member of Parliament (Phulpur), Former MLA (Allahabad West)",
+    "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Atiq_Ahmed.png/250px-Atiq_Ahmed.png",
+    "state": "Uttar Pradesh",
+    "district": "Prayagraj",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Convicted in the 2006 kidnapping of advocate Umesh Pal, a key witness in the Raju Pal murder case.",
+        "A special MP-MLA court in Prayagraj sentenced Ahmed to life imprisonment on March 28, 2023.",
+        "Seven other accused were acquitted in the same case."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Atiq Ahmed gets life term in 2006 Umesh Pal kidnapping case",
+        "url": "https://www.indiatoday.in/india/story/atiq-ahmed-found-guilty-in-umesh-pal-kidnapping-case-2352412-2023-03-28"
+      },
+      {
+        "title": "Gangster-turned-politician Atiq Ahmed gets life term in Umesh Pal abduction case",
+        "url": "https://indianexpress.com/article/india/atiq-ahmed-umesh-pal-murder-case-prayagraj-court-8523171/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mukhtar Ansari",
+    "party": "Bahujan Samaj Party (BSP)",
+    "position": "Former Member of Legislative Assembly (Mau Sadar)",
+    "image": "https://imgs.search.brave.com/fUSA7J4TmU63ZHjP1VnR4z8VYONgJqM-7a2o0rYRdJk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5uZXdpbmRpYW5l/eHByZXNzLmNvbS9U/TklFL2ltcG9ydC8y/MDIyLzgvMjcvb3Jp/Z2luYWwvTXVraHRh/cl9BbnNhcmkuanBn/P3c9NDgwJmF1dG89/Zm9ybWF0LGNvbXBy/ZXNzJmZpdD1tYXg",
+    "state": "Uttar Pradesh",
+    "district": "Mau",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 8
+    },
+    "caseDetails": {
+      "other": [
+        "Had been convicted in eight criminal cases by the time of his death in March 2024, according to reporting at the time.",
+        "In September 2022, the Allahabad High Court sentenced him to seven years imprisonment in a case involving threats against a Lucknow district jailer.",
+        "In March 2024, a Varanasi court sentenced him to life imprisonment in a case involving forged documents used to obtain an arms licence.",
+        "Faced numerous other criminal cases, including murder and extortion allegations; these should not be treated as convictions unless separately verified."
+      ]
+    },
+    "sources": [
+      {
+        "title": "In prison since 2005, Mukhtar Ansari faced 65 criminal cases, was convicted in 8 so far",
+        "url": "https://indianexpress.com/article/political-pulse/mukhtar-ansari-dead-criminal-cases-prison-9239303/"
+      },
+      {
+        "title": "Mukhtar Ansari's reign of terror: First case at 17, first conviction at 61",
+        "url": "https://timesofindia.indiatimes.com/city/varanasi/1st-case-at-17-1st-conviction-at-61/articleshow/108864631.cms"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Azam Khan",
+    "party": "Samajwadi Party (SP)",
+    "position": "Former Member of Legislative Assembly (Rampur)",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Mohammad_Azam_Khan_1.jpg/250px-Mohammad_Azam_Khan_1.jpg",
+    "state": "Uttar Pradesh",
+    "district": "Rampur",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Convicted in a 2019 hate speech case relating to remarks made during the Lok Sabha election campaign.",
+        "Sentenced to two years imprisonment by an MP-MLA court in 2022.",
+        "A Rampur court upheld the two-year sentence in July 2026, dismissing his appeal."
+      ]
+    },
+    "sources": [
+      {
+        "title": "Court upholds Azam Khan's 2-year jail term in 2019 hate speech case",
+        "url": "https://timesofindia.indiatimes.com/city/meerut/court-upholds-azam-khans-2-year-jail-term-in-2019-hate-speech-case/articleshow/132484883.cms"
+      },
+      {
+        "title": "Hate speech case: Court rejects Azam's plea against his conviction",
+        "url": "https://indianexpress.com/article/cities/lucknow/azam-khan-hate-speech-case-samajwadi-party-azam-khan-speeches-conviction-9124657/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Shashi Tharoor",
+    "party": "Indian National Congress (INC)",
+    "position": "Member of Parliament, Thiruvananthapuram",
+    "image": "https://imgs.search.brave.com/kHQY2io4Hm0Le8DunKNo1uWu7Rtu5x8N-JedlE5_XUg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMud2Vmb3J1bS5v/cmcvc2ZfYWNjb3Vu/dC9pbWFnZS9NN0xj/bklOMWNrTjAzWFBZ/cXdnODhHbmhqd3dh/ajlxemUybnRfOTNF/aG5ZLnBuZw",
+    "state": "Kerala",
+    "district": "Thiruvananthapuram",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 11,
+    "name": "Raghav Chadha",
+    "party": "Aam Aadmi Party (AAP)",
+    "position": "Member of Parliament (Rajya Sabha)",
+    "image": "https://imgs.search.brave.com/07m-S6jM3kcF4CAFZ2WvyltD6-_WYKOcKh3awK0e5qY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/amFncmFuam9zaC5j/b20vaW1hZ2VzLzIw/MjIvTWFyY2gvMjIz/MjAyMi9SYWdoYXYt/Y2hhZGhhLWJpb2dy/YXBoeS53ZWJw",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 12,
+    "name": "Mahua Moitra",
+    "party": "All India Trinamool Congress (AITC)",
+    "position": "Former Member of Parliament",
+    "image": "https://imgs.search.brave.com/XGFBVo12ARrmA_cDaLKP9IE7F00MtLF1YJ98zcufADs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIw/NzYwODQzNi9waG90/by9uZXctZGVsaGkt/aW5kaWF0cmluYW1v/b2wtY29uZ3Jlc3Mt/bXAtbWFodWEtbW9p/dHJhLWFycml2ZXMt/ZHVyaW5nLXRoZS1v/bmdvaW5nLWJ1ZGdl/dC1zZXNzaW9uLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1V/Rm1FdGlYeVRkWEV6/VDBMX0ZtRWxMX191/aEpjM3NocU5KTFNP/SWtRRVVVPQ",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 13,
+    "name": "Akhilesh Yadav",
+    "party": "Samajwadi Party (SP)",
+    "position": "Former Chief Minister, UP",
+    "image": "https://imgs.search.brave.com/_TvM7IXyAUeyyEbDl6HfJKd2wMOFwW7wwOoC7rbRTfg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTk4/NTc2OTkyL3Bob3Rv/L2x1Y2tub3ctaW5k/aWEtc2FtYWp3YWRp/LXBhcnR5LWNoaWVm/LWFraGlsZXNoLXlh/ZGF2LWFkZHJlc3Nl/cy1hLXByZXNzLWNv/bmZlcmVuY2Utb24t/MjMtMDAwLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1xeEZ6/ZEdyV3l1MWtiX1lO/OGhuQnVrb1ZlUXI5/bkJOMktVNWRBdzFG/SWlrPQ",
+    "state": "Uttar Pradesh",
+    "district": "Kannauj",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 14,
+    "name": "Sachin Pilot",
+    "party": "Indian National Congress (INC)",
+    "position": "Member of Parliament, Rajasthan",
+    "image": "https://imgs.search.brave.com/DJWp1JYUNQJgiopl_FBGxYEBdA2Rys-yAAthCCJpmTk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE5/MjUzMzExNS9waG90/by9tdW1iYWktaW5k/aWEtZm9ybWVyLXVu/aW9uLW1pbmlzdGVy/LWFuZC1nZW5lcmFs/LXNlY3JldGFyeS1v/Zi10aGUtYWxsLWlu/ZGlhLWNvbmdyZXNz/LWNvbW1pdHRlZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/SjMwRE5EQ3ZaZFVF/NDhCVmp3ZkIzcU45/dFloX2hsVVNtVU1i/V2NWVk1FZz0",
+    "state": "Rajasthan",
+    "district": "Tonk",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 15,
+    "name": "Priyanka Chaturvedi",
+    "party": "Shiv Sena (UBT)",
+    "position": "Member of Parliament (Rajya Sabha)",
+    "image": "https://imgs.search.brave.com/RDsJEpiuPR6FvyRvSRjoI8oYZV3YlL80hr8M_5R6G7g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYmhhc2thcmFz/c2V0cy5jb20vd2Vi/MmltYWdlcy81MjEv/MjAyMC8wMy8xMi9w/cml5YW5rYV8xNTg0/MDA1ODM0LmpwZw",
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 16,
+    "name": "Manish Sisodia",
+    "party": "Aam Aadmi Party (AAP)",
+    "position": "Former Deputy CM, Delhi",
+    "image": "https://imgs.search.brave.com/AclQKCMzYzqwD-RWHHq3wAnL6fDywSNvDXKPZYBjO-E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hYW1h/YWRtaXBhcnR5Lm9y/Zy93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NC8wMi9tcy1zY2Fs/ZWQud2VicA",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Excise Policy scam allegations (2022)",
+        "Money laundering case under investigation",
+        "Arrested by CBI and ED",
+        "Currently on bail"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Indian Express - Delhi Excise Policy case",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Arvind Kejriwal",
+    "party": "Aam Aadmi Party (AAP)",
+    "position": "Chief Minister, Delhi",
+    "image": "https://imgs.search.brave.com/C0SyLmvC-sWnT32dgWWwLEbXkldsN-5Rx2IVNqFTxow/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aWtp/YmlvLmluL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA4Lzcw/MTQ0Mi1hcnZpbmRr/ZWpyaXdhbDIuanBn",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Excise Policy scam - arrested by ED (2024)",
+        "Money laundering allegations",
+        "Currently on bail"
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Hindu - Kejriwal arrest",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Jagan Mohan Reddy",
+    "party": "YSR Congress Party",
+    "position": "Chief Minister, Andhra Pradesh",
+    "image": "https://imgs.search.brave.com/ic-VXF7G2K3QKyLUexI_nGbCooXZfP7uvXbJwIc6xHY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjLzkz/LzhjLzNjOTM4Yzkx/MGIyMWYwOGI0ZjEz/NzhlYmUxMzk1YjEx/LmpwZw",
+    "state": "Andhra Pradesh",
+    "district": "Kadapa",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 11
+    },
+    "caseDetails": {
+      "other": [
+        "Disproportionate assets case",
+        "Illegal asset accumulation (₹43,000 crores alleged)",
+        "CBI investigation",
+        "Money laundering charges"
+      ]
+    },
+    "sources": [
+      {
+        "title": "CBI chargesheet - Jagan assets case",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Sanjay Raut",
+    "party": "Shiv Sena (UBT)",
+    "position": "Member of Parliament (Rajya Sabha)",
+    "image": "https://imgs.search.brave.com/6fchwHjN3tJ0GnyyoRMbhUV4jK3kAmknnYAktp88Y_k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjIy/MDMwODc0OC9waG90/by9tdW1iYWktbWFo/YXJhc2h0cmEtaW5k/aWEtc2hpdi1zZW5h/cy1tZW1iZXItb2Yt/cGFybGlhbWVudC1s/ZWFkZXItc2FuamF5/LXJhdXQtc3BlYWtz/LWR1cmluZy10aGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWZzM0lPVXVkRmtJ/YnFxNlNMYVdjc3FC/QldoLWIwTE9GMThH/U2pJX2VHdE09",
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 2
+    },
+    "caseDetails": {
+      "other": [
+        "Money laundering case related to PMC Bank scam",
+        "ED arrest (2022)",
+        "Currently on bail"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Times of India - Sanjay Raut arrest",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Kanimozhi Karunanidhi",
+    "party": "Dravida Munnetra Kazhagam (DMK)",
+    "position": "Member of Parliament (Rajya Sabha)",
+    "image": "https://imgs.search.brave.com/joTFm0ZV9g_EzfhcHsaaX_UpqU1zcZ8bS4xbavdCdys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXN2cy5vbmVpbmRp/YS5jb20vcG9saXRp/Y2lhbi1wcm9maWxl/cy9wb2xpdGljaWFu/L2thbmltb3poaS03/MTY0OS5qcGc",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 21,
+    "name": "Hemant Soren",
+    "party": "Jharkhand Mukti Morcha (JMM)",
+    "position": "Chief Minister, Jharkhand",
+    "image": "https://imgs.search.brave.com/GsWyVQ5o8tjiGzPLc13g1Kr79Tc0Ep4L4PXof3azoeg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ic21l/ZGlhLmJ1c2luZXNz/LXN0YW5kYXJkLmNv/bS9fbWVkaWEvYnMv/aW1nL2FydGljbGUv/MjAyMy0wNC8wMi9m/dWxsLzE2ODA0MzE1/MzItNjQzMi5wbmc_/aW09Rml0QW5kRmls/bD0oODI2LDQ2NSk",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Illegal mining case",
+        "Money laundering allegations (2024)",
+        "ED investigation ongoing"
+      ]
+    },
+    "sources": [
+      {
+        "title": "NDTV - Hemant Soren ED case",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Tejashwi Yadav",
+    "party": "Rashtriya Janata Dal (RJD)",
+    "position": "Deputy CM, Bihar",
+    "image": "https://imgs.search.brave.com/p7MTBmvx-herFZ8vhxBamcPyAtJ8fEoo8bUQs7HS-0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjI3/MjI3MjM2OC9waG90/by9wYXRuYS1pbmRp/YS1yamQtbmF0aW9u/YWwtd29ya2luZy1w/cmVzaWRlbnQtdGVq/YXNod2kteWFkYXYt/YWRkcmVzc2luZy1k/dXJpbmctcGFuY2hh/eWF0aS1yYWouanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWJk/MnZIbUFJR01CeVpQ/eEk1aTNUcmZlT25p/WE9sMklXaWZVdFht/NE9Zbmc9",
+    "state": "Bihar",
+    "district": "Patna",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 1
+    },
+    "caseDetails": {
+      "other": [
+        "Land-for-jobs scam allegations",
+        "CBI investigation (2022)",
+        "Allegations during his father's tenure as Railway Minister"
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Wire - Land for jobs scam",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Smriti Irani",
+    "party": "Bharatiya Janata Party (BJP)",
+    "position": "Former Union Minister",
+    "image": "https://imgs.search.brave.com/gwzlrS5L8Kn4jwin_1F9Ae_MnecKvsynju70t1cullk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/Lzc5L1NtdC5fU21y/aXRpX1p1YmluX0ly/YW5pX2luX0p1bHlf/MjAyMi5qcGc",
+    "state": "Uttar Pradesh",
+    "district": "Amethi",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 24,
+    "name": "Anurag Thakur",
+    "party": "Bharatiya Janata Party (BJP)",
+    "position": "Union Minister",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Official_Portrait_of_Shri_Anurag_Singh_Thakur.jpg/500px-Official_Portrait_of_Shri_Anurag_Singh_Thakur.jpg",
+    "state": "Himachal Pradesh",
+    "district": "Hamirpur",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
+  },
+  {
+    "id": 25,
+    "name": "Raja Bhaiya (Raghuraj Pratap Singh)",
+    "party": "Jansatta Dal (Loktantrik)",
+    "position": "MLA, Kunda (Pratapgarh)",
+    "image": null,
+    "state": "Uttar Pradesh",
+    "district": "Pratapgarh",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 45
+    },
+    "caseDetails": {
+      "other": [
+        "Murder charges (DSP murder case 2013)",
+        "Kidnapping",
+        "Criminal intimidation",
+        "Arms Act violations",
+        "Multiple acquittals due to witnesses turning hostile"
+      ]
+    },
+    "sources": [
+      { "title": "The Hindu - Raja Bhaiya cases", "url": "#" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Dhananjay Singh",
+    "party": "Samajwadi Party (SP)",
+    "position": "Former MLA, Jehanabad (Azamgarh)",
+    "image": null,
+    "state": "Uttar Pradesh",
+    "district": "Azamgarh",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 28
+    },
+    "caseDetails": {
+      "other": [
+        "Murder of wife Jaymala Singh (2015)",
+        "Gangster activities",
+        "Extortion",
+        "Currently imprisoned"
+      ]
+    },
+    "sources": [
+      { "title": "TOI - Dhananjay Singh conviction", "url": "#" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Amanmani Tripathi",
+    "party": "Samajwadi Party (SP)",
+    "position": "Former MLA, Nautanwa (Maharajganj)",
+    "image": null,
+    "state": "Uttar Pradesh",
+    "district": "Maharajganj",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 12
+    },
+    "caseDetails": {
+      "other": [
+        "Murder of poetess Madhumita Shukla (2003)",
+        "Life imprisonment sentence",
+        "Criminal conspiracy"
+      ]
+    },
+    "sources": [
+      { "title": "BBC - Madhumita murder case", "url": "#" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Vijay Mishra",
+    "party": "Bahujan Samaj Party (BSP)",
+    "position": "Former MLA, Gyanpur (Sant Ravidas Nagar)",
+    "image": null,
+    "state": "Uttar Pradesh",
+    "district": "Sant Ravidas Nagar",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 52
+    },
+    "caseDetails": {
+      "other": [
+        "Gangster activities",
+        "Murder charges",
+        "Extortion",
+        "Arms Act violations",
+        "Convicted in multiple cases"
+      ]
+    },
+    "sources": [
+      { "title": "IE - Vijay Mishra gangster cases", "url": "#" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Shivpal Singh Yadav",
+    "party": "Pragatisheel Samajwadi Party (Lohia)",
+    "position": "MLA, Jaswantnagar (Etawah)",
+    "image": null,
+    "state": "Uttar Pradesh",
+    "district": "Etawah",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 8
+    },
+    "caseDetails": {
+      "other": [
+        "Disproportionate assets case",
+        "Violation of election code",
+        "Criminal intimidation"
+      ]
+    },
+    "sources": [
+      { "title": "NDTV - Shivpal Yadav cases", "url": "#" }
+    ]
+  },
+
+  {
+    "id": 30,
+    "name": "Pappu Yadav (Rajesh Ranjan)",
+    "party": "Jan Adhikar Party",
+    "position": "Member of Parliament, Purnea",
+    "image": null,
+    "state": "Bihar",
+    "district": "Purnea",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 36
+    },
+    "caseDetails": {
+      "other": [
+        "Murder charges (CPI(ML) leader Ajit Sarkar)",
+        "Convicted and sentenced to life imprisonment (later acquitted on appeal)",
+        "Kidnapping",
+        "Criminal intimidation"
+      ]
+    },
+    "sources": [
+      { "title": "The Wire - Pappu Yadav criminal history", "url": "#" }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Mohammad Shahabuddin",
+    "party": "Rashtriya Janata Dal (RJD)",
+    "position": "Former MP, Siwan (Deceased)",
+    "image": null,
+    "state": "Bihar",
+    "district": "Siwan",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 54
+    },
+    "caseDetails": {
+      "other": [
+        "Multiple murder charges",
+        "Kidnapping",
+        "Extortion",
+        "Arms Act violations",
+        "Life imprisonment in JNU student murder case"
+      ]
+    },
+    "sources": [
+      { "title": "Indian Express - Shahabuddin convictions", "url": "#" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Prabhunath Singh",
+    "party": "Rashtriya Janata Dal (RJD)",
+    "position": "MP, Maharajganj (Bihar)",
+    "image": null,
+    "state": "Bihar",
+    "district": "Siwan",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 15
+    },
+    "caseDetails": {
+      "other": [
+        "Murder charges",
+        "Arms Act violations",
+        "Criminal intimidation",
+        "Son of gangster-politician Mohd. Shahabuddin"
+      ]
+    },
+    "sources": [
+      { "title": "TOI - Prabhunath Singh cases", "url": "#" }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Lovely Anand",
+    "party": "Janata Dal (United)",
+    "position": "MLA, Lakhisarai",
+    "image": null,
+    "state": "Bihar",
+    "district": "Lakhisarai",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 22
+    },
+    "caseDetails": {
+      "other": [
+        "Murder charges",
+        "Gangster activities",
+        "Extortion",
+        "Criminal conspiracy"
+      ]
+    },
+    "sources": [
+      { "title": "HT - Lovely Anand criminal record", "url": "#" }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Ranvir Nandan",
+    "party": "Communist Party of India (CPI)",
+    "position": "Former MLA, Paliganj (Patna)",
+    "image": null,
+    "state": "Bihar",
+    "district": "Patna",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 18
+    },
+    "caseDetails": {
+      "other": [
+        "Murder charges",
+        "Arms Act violations",
+        "Criminal intimidation"
+      ]
+    },
+    "sources": [
+      { "title": "Bihar Times - Ranvir Nandan cases", "url": "#" }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Gopal Kanda",
+    "party": "Haryana Lokhit Party",
+    "position": "MLA, Sirsa",
+    "image": null,
+    "state": "Haryana",
+    "district": "Sirsa",
+    "status": "rapist",
+    "cases": {
+      "sexualAssault": 3,
+      "other": 4
+    },
+    "caseDetails": {
+      "sexualAssault": [
+        "Abetment to suicide of air hostess Geetika Sharma (2012)",
+        "Sexual harassment charges",
+        "Rape charges under IPC Section 376"
+      ],
+      "other": [
+        "Criminal intimidation",
+        "Forgery",
+        "Human trafficking allegations"
+      ]
+    },
+    "sources": [
+      { "title": "NDTV - Gopal Kanda case", "url": "#" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Kuldeep Bishnoi",
+    "party": "Bharatiya Janata Party (BJP)",
+    "position": "Former MLA, Adampur",
+    "image": null,
+    "state": "Haryana",
+    "district": "Hisar",
+    "status": "garbage",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 6
+    },
+    "caseDetails": {
+      "other": [
+        "Illegal mining allegations",
+        "Disproportionate assets",
+        "Land grabbing cases"
+      ]
+    },
+    "sources": [
+      { "title": "The Tribune - Bishnoi cases", "url": "#" }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Savitri Jindal",
+    "party": "Indian National Congress (INC)",
+    "position": "Former MLA, Hisar",
+    "image": null,
+    "state": "Haryana",
+    "district": "Hisar",
+    "status": "clean",
+    "cases": {
+      "sexualAssault": 0,
+      "other": 0
+    },
+    "sources": []
   },
   {
     "id": 116,
