@@ -275,7 +275,7 @@
   {
     "id": 11,
     "name": "Raghav Chadha",
-    "party": "Aam Aadmi Party (AAP)",
+    "party": "Bharatiya Janata Party (BJP)",
     "position": "Member of Parliament (Rajya Sabha)",
     "image": "https://imgs.search.brave.com/07m-S6jM3kcF4CAFZ2WvyltD6-_WYKOcKh3awK0e5qY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/amFncmFuam9zaC5j/b20vaW1hZ2VzLzIw/MjIvTWFyY2gvMjIz/MjAyMi9SYWdoYXYt/Y2hhZGhhLWJpb2dy/YXBoeS53ZWJw",
     "state": "Punjab",
@@ -310,12 +310,33 @@
     "image": "https://imgs.search.brave.com/_TvM7IXyAUeyyEbDl6HfJKd2wMOFwW7wwOoC7rbRTfg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTk4/NTc2OTkyL3Bob3Rv/L2x1Y2tub3ctaW5k/aWEtc2FtYWp3YWRp/LXBhcnR5LWNoaWVm/LWFraGlsZXNoLXlh/ZGF2LWFkZHJlc3Nl/cy1hLXByZXNzLWNv/bmZlcmVuY2Utb24t/MjMtMDAwLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1xeEZ6/ZEdyV3l1MWtiX1lO/OGhuQnVrb1ZlUXI5/bkJOMktVNWRBdzFG/SWlrPQ",
     "state": "Uttar Pradesh",
     "district": "Kannauj",
-    "status": "clean",
+    "status": "garbage",
     "cases": {
       "sexualAssault": 0,
-      "other": 0
+      "other": 4
     },
-    "sources": []
+    "caseDetails": {
+      "other": [
+        "Saifai Public Order Violation Case (2022): Accused of violating election-related public restrictions during the Uttar Pradesh Assembly election campaign.",
+        "Dadri COVID-19 and Election Code Violation Case (2022): Named among 14 accused after an election campaign gathering allegedly violated COVID-19 restrictions, night-time prohibitions and the Model Code of Conduct.",
+        "Gautampalli COVID-19 and Disaster Management Violation Case (2020): Accused of disobeying government orders and violating restrictions imposed under the COVID-19 pandemic and disaster management regulations.",
+        "Varanasi Cheating and Criminal Intimidation FIR (2024): Named in an FIR alleging cheating, breach of trust, intentional insult and criminal intimidation; challenged the FIR before the Allahabad High Court."
+      ]
+    },
+    "sources": [
+      {
+        "title": "ADR / MyNeta: Akhilesh Yadav 2024 Lok Sabha Election Affidavit",
+        "url": "https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=6236"
+      },
+      {
+        "title": "Allahabad High Court: Akhilesh Yadav vs State of Uttar Pradesh (Dadri Case, December 2023)",
+        "url": "https://images.assettype.com/barandbench/2023-12/ba694900-5aa3-4ec6-a408-54fef103e9fe/Akhilesh_Yadav_v_State.pdf"
+      },
+      {
+        "title": "Allahabad High Court: Akhilesh Yadav vs State of Uttar Pradesh (Varanasi FIR, April 2024)",
+        "url": "https://indiankanoon.org/doc/48913318/"
+      }
+    ]
   },
   {
     "id": 14,
