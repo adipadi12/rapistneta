@@ -1,5 +1,6 @@
 import type { PoliticianStatus } from '../types';
 import './Header.css';
+import {useState} from 'react';
 
 interface HeaderProps {
   searchTerm: string;
@@ -16,6 +17,7 @@ function Header({
   setFilterStatus,
   onRandomClick,
 }: HeaderProps) {
+  const [showInfo, setShowInfo] = useState(false);
   return (
     <header className="header">
       <div className="container">
@@ -72,6 +74,38 @@ function Header({
           </div>
         </div>
       </div>
+      <div className="header-actions">
+        <button
+          className="submit-btn"
+//          onClick={}
+        >
+          Submit
+        </button>
+        <button
+          className="info-btn"
+          onClick={() => setShowInfo(!showInfo)}
+          aria-label="About this site"
+        >
+          ℹ️
+        </button>
+      </div>
+
+      {showInfo && (
+        <div className="info-box" role="dialog">
+          <button
+            className="info-close"
+            onClick={() => setShowInfo(false)}
+            aria-label="Close"
+          >
+            ×
+          </button>
+          <p>
+            This site tracks politicians with criminal cases in India.
+            If you can help me out in any way feel free to submit 
+            any data you might have here
+          </p>
+        </div>
+      )}
     </header>
   );
 }
