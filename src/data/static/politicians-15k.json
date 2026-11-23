@@ -41,7 +41,7 @@
     "status": "garbage",
     "cases": {
       "sexualAssault": 0,
-      "other": 4
+      "other": 3
     },
     "caseDetails": {
       "other": [
@@ -391,8 +391,8 @@
     },
     "sources": [
       {
-        "title": "Indian Express - Delhi Excise Policy case",
-        "url": "#"
+        "title": "Money laundering: Former Delhi deputy CM Manish Sisodia arrested",
+        "url": "https://www.thedailystar.net/news/asia/india/news/money-laundering-former-delhi-deputy-cm-manish-sisodia-arrested-3267196"
       }
     ]
   },
@@ -418,8 +418,8 @@
     },
     "sources": [
       {
-        "title": "The Hindu - Kejriwal arrest",
-        "url": "#"
+        "title": "Kejriwal arrest",
+        "url": "https://en.wikipedia.org/wiki/Arrest_of_Arvind_Kejriwal"
       }
     ]
   },
@@ -447,7 +447,7 @@
     "sources": [
       {
         "title": "CBI chargesheet - Jagan assets case",
-        "url": "#"
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/jagan-assets-case-cbi-files-chargesheet/article3266170.ece"
       }
     ]
   },
@@ -474,7 +474,7 @@
     "sources": [
       {
         "title": "Times of India - Sanjay Raut arrest",
-        "url": "#"
+        "url": "https://timesofindia.indiatimes.com/city/mumbai/after-daylong-raid-on-home-enforcement-directorate-arrests-shiv-senas-sanjay-raut/articleshow/93259712.cms"
       }
     ]
   },
@@ -515,8 +515,8 @@
     },
     "sources": [
       {
-        "title": "NDTV - Hemant Soren ED case",
-        "url": "#"
+        "title": "Hemant Soren Gets Bail In Land Scam Case",
+        "url": "https://www.ndtv.com/india-news/ex-jharkhand-chief-minister-granted-bail-in-land-scam-case-5987652"
       }
     ]
   },
@@ -542,8 +542,8 @@
     },
     "sources": [
       {
-        "title": "The Wire - Land for jobs scam",
-        "url": "#"
+        "title": "Land-For-Jobs Scam: After CBI, Tejashwi Yadav Questioned By Another Probe Agency",
+        "url": "https://www.ndtv.com/india-news/land-for-jobs-scam-case-tejashwi-yadav-questioned-by-probe-agency-enforcement-directorate-3937736"
       }
     ]
   },
@@ -600,7 +600,7 @@
       ]
     },
     "sources": [
-      { "title": "The Hindu - Raja Bhaiya cases", "url": "#" }
+      { "title": "The Hindu - Raja Bhaiya cases", "url": "https://www.hindustantimes.com/india-news/murder-case-registered-against-raja-bhaiya/story-BqdHjK88zL2Km6BMB3Lh6K.html" }
     ]
   },
   {
