@@ -1,30 +1,27 @@
 /**
  * Application initialization and dependency injection
  *
- * This file sets up the data access layer and service instances.
- * It loads the politician data and creates repository/service instances
- * that can be used throughout the application.
- * Using the 15K dataset for full coverage of Indian politicians.
+ * DATA_SOURCE is controlled by the VITE_DATA_SOURCE env variable:
+ *   "neon"   → NeonPoliticianRepository (Neon PostgreSQL via API routes)
+ *   anything else / unset → StaticPoliticianRepository (local JSON file, default)
+ *
+ * To switch to Neon, copy .env.example → .env and set:
+ *   VITE_DATA_SOURCE=neon
+ *   DATABASE_URL=<your neon connection string>
  */
 
 import politicians from './static/politicians-15k.json';
-import { StaticPoliticianRepository } from './repositories';
+import { StaticPoliticianRepository, NeonPoliticianRepository } from './repositories';
 import { PoliticianService } from '../services';
 
-/**
- * Initialize the static politician repository with 15K dataset
- * The 15K dataset contains synthetic politicians covering all Indian states and districts
- */
-const politicianRepository = new StaticPoliticianRepository(politicians);
+// Always import JSON statically (tree-shaken away when using Neon).
+// This avoids top-level await which is unsupported in the ES2020 build target.
+const politicianRepository =
+  import.meta.env.VITE_DATA_SOURCE === 'neon'
+    ? new NeonPoliticianRepository('/api/politicians')
+    : new StaticPoliticianRepository(politicians);
 
 /**
- * Initialize the politician service
- * This is the main interface components should use for data access
+ * Singleton service used by all hooks and components
  */
 export const politicianService = new PoliticianService(politicianRepository);
-
-/**
- * Export the raw politicians array for backward compatibility
- * Contains 15,000 politicians from the synthetic dataset
- */
-export { politicians };
