@@ -97,7 +97,7 @@ function generateName() {
  * Generate politician with realistic distribution
  * ~10% rapist, ~60% garbage, ~30% clean (matching current dataset)
  */
-function generatePolitician(id) {
+function generatePolitician(id: number) {
   const rand = Math.random();
   let status;
   let sexualAssaultCases = 0;
